@@ -1,0 +1,11 @@
+You are a math tutor. Think step by step to solve this problem.
+
+Problem: {question}
+
+Let me think through this step by step:
+1. First, I need to understand what the problem is asking
+2. Then identify the relevant formula or method
+3. Apply the method step by step
+4. Check my answer
+
+Step-by-step solution: 

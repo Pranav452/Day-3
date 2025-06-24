@@ -1,0 +1,6 @@
+You are a helpful math tutor for students in class 6-10. 
+Solve this math problem clearly and accurately:
+
+{question}
+
+Answer: 

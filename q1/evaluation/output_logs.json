@@ -1,0 +1,42 @@
+{
+  "test_results": {
+    "zero_shot": {
+      "accuracy": "2/5 (40%)",
+      "sample_responses": [
+        "Q: Solve 3x + 5 = 14 | A: number 1",
+        "Q: Calculate 25% of 160 | A: a 100"
+      ],
+      "observations": "Basic responses, lacks mathematical precision"
+    },
+    "few_shot": {
+      "accuracy": "2/5 (40%)", 
+      "sample_responses": [
+        "Q: Solve 3x + 5 = 14 | A: Solve 2x 5?",
+        "Q: What is the area of a triangle... | A: Model could not generate a response"
+      ],
+      "observations": "Examples help but model still struggles with computation"
+    },
+    "chain_of_thought": {
+      "accuracy": "1/5 (20%)",
+      "sample_responses": [
+        "Q: Solve 3x + 5 = 14 | A: Step 1. Look at the answer for the answer. Step 2. Look at the answer. Step 3.",
+        "Q: Calculate 25% of 160 | A: Step"
+      ],
+      "observations": "Shows step structure but lacks mathematical content"
+    },
+    "self_ask": {
+      "accuracy": "0/5 (0%)",
+      "sample_responses": [
+        "Q: Solve 3x + 5 = 14 | A: what's your question?",
+        "Q: Calculate 25% of 160 | A: how to solve a self problem"
+      ],
+      "observations": "Model gets confused with self-questioning approach"
+    }
+  },
+  "hallucination_examples": [
+    "Zero-shot: 'The circle is 12 cm' for rectangle perimeter question",
+    "Few-shot: Model returning empty responses",
+    "CoT: Generic step mentions without actual calculation",
+    "Self-ask: Irrelevant counter-questions"
+  ]
+} 
