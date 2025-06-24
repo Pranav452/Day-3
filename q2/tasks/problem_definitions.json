@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "category": "math_word_problem",
+      "problem": "Sarah has 3 times as many apples as Tom. Together they have 20 apples. How many apples does Sarah have?",
+      "expected_answer": "15",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "category": "math_word_problem", 
+      "problem": "A car travels 60 km in the first hour and 40 km in the second hour. What is the average speed over the 2 hours?",
+      "expected_answer": "50 km/h",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "category": "logic_puzzle",
+      "problem": "All roses are flowers. Some flowers are red. Can we conclude that all roses are red?",
+      "expected_answer": "No",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "category": "math_word_problem",
+      "problem": "A store sells notebooks for $3 each. If you buy 5 or more, you get a 20% discount. How much would 6 notebooks cost?",
+      "expected_answer": "$14.40",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "category": "logic_puzzle",
+      "problem": "Three friends: Alice always tells the truth, Bob always lies, Charlie sometimes lies. Alice says 'Bob is lying.' What can we conclude?",
+      "expected_answer": "Alice is telling the truth (Bob is lying)",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "category": "code_debugging",
+      "problem": "This Python code should print numbers 1,2,3 but prints nothing. What's wrong? Code: for i in [1,2,3] print(i)",
+      "expected_answer": "Missing colon after for loop",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "category": "math_word_problem",
+      "problem": "A rectangle has length 8cm and width 5cm. If the length is increased by 25%, what is the new area?",
+      "expected_answer": "50 cm²",
+      "difficulty": "medium"
+    }
+  ]
+} 

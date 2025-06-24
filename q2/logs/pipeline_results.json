@@ -1,0 +1,235 @@
+{
+  "pipeline_type": "Multi-Path Reasoning with Tree-of-Thought + Self-Consistency + Automated Optimization",
+  "model_used": "microsoft/DialoGPT-small (simulated)",
+  "test_results": [
+    {
+      "task_id": 1,
+      "problem": "Sarah has 3 times as many apples as Tom. Together they have 20 apples. How many apples does Sarah have?",
+      "expected_answer": "15",
+      "reasoning_paths": [
+        {
+          "path_id": 1,
+          "approach": "systematic",
+          "answer": "path1_answer",
+          "confidence": 0.7
+        },
+        {
+          "path_id": 2,
+          "approach": "intuitive",
+          "answer": "path1_answer",
+          "confidence": 0.6
+        },
+        {
+          "path_id": 3,
+          "approach": "analytical",
+          "answer": "path2_answer",
+          "confidence": 0.8
+        }
+      ],
+      "final_answer": "path1_answer",
+      "confidence": 0.6666666666666666,
+      "agreement": 0.6666666666666666,
+      "is_correct": true,
+      "timestamp": "2025-06-24T23:26:17.189756"
+    },
+    {
+      "task_id": 2,
+      "problem": "A car travels 60 km in the first hour and 40 km in the second hour. What is the average speed over the 2 hours?",
+      "expected_answer": "50 km/h",
+      "reasoning_paths": [
+        {
+          "path_id": 1,
+          "approach": "systematic",
+          "answer": "path1_answer",
+          "confidence": 0.7
+        },
+        {
+          "path_id": 2,
+          "approach": "intuitive",
+          "answer": "path1_answer",
+          "confidence": 0.6
+        },
+        {
+          "path_id": 3,
+          "approach": "analytical",
+          "answer": "path2_answer",
+          "confidence": 0.8
+        }
+      ],
+      "final_answer": "path1_answer",
+      "confidence": 0.6666666666666666,
+      "agreement": 0.6666666666666666,
+      "is_correct": false,
+      "timestamp": "2025-06-24T23:26:17.191150"
+    },
+    {
+      "task_id": 3,
+      "problem": "All roses are flowers. Some flowers are red. Can we conclude that all roses are red?",
+      "expected_answer": "No",
+      "reasoning_paths": [
+        {
+          "path_id": 1,
+          "approach": "systematic",
+          "answer": "path1_answer",
+          "confidence": 0.7
+        },
+        {
+          "path_id": 2,
+          "approach": "intuitive",
+          "answer": "path1_answer",
+          "confidence": 0.6
+        },
+        {
+          "path_id": 3,
+          "approach": "analytical",
+          "answer": "path2_answer",
+          "confidence": 0.8
+        }
+      ],
+      "final_answer": "path1_answer",
+      "confidence": 0.6666666666666666,
+      "agreement": 0.6666666666666666,
+      "is_correct": false,
+      "timestamp": "2025-06-24T23:26:17.194202"
+    },
+    {
+      "task_id": 4,
+      "problem": "A store sells notebooks for $3 each. If you buy 5 or more, you get a 20% discount. How much would 6 notebooks cost?",
+      "expected_answer": "$14.40",
+      "reasoning_paths": [
+        {
+          "path_id": 1,
+          "approach": "systematic",
+          "answer": "path1_answer",
+          "confidence": 0.7
+        },
+        {
+          "path_id": 2,
+          "approach": "intuitive",
+          "answer": "path1_answer",
+          "confidence": 0.6
+        },
+        {
+          "path_id": 3,
+          "approach": "analytical",
+          "answer": "path2_answer",
+          "confidence": 0.8
+        }
+      ],
+      "final_answer": "path1_answer",
+      "confidence": 0.6666666666666666,
+      "agreement": 0.6666666666666666,
+      "is_correct": true,
+      "timestamp": "2025-06-24T23:26:17.197672"
+    },
+    {
+      "task_id": 5,
+      "problem": "Three friends: Alice always tells the truth, Bob always lies, Charlie sometimes lies. Alice says 'Bob is lying.' What can we conclude?",
+      "expected_answer": "Alice is telling the truth (Bob is lying)",
+      "reasoning_paths": [
+        {
+          "path_id": 1,
+          "approach": "systematic",
+          "answer": "path1_answer",
+          "confidence": 0.7
+        },
+        {
+          "path_id": 2,
+          "approach": "intuitive",
+          "answer": "path1_answer",
+          "confidence": 0.6
+        },
+        {
+          "path_id": 3,
+          "approach": "analytical",
+          "answer": "path2_answer",
+          "confidence": 0.8
+        }
+      ],
+      "final_answer": "path1_answer",
+      "confidence": 0.6666666666666666,
+      "agreement": 0.6666666666666666,
+      "is_correct": false,
+      "timestamp": "2025-06-24T23:26:17.202082"
+    },
+    {
+      "task_id": 6,
+      "problem": "This Python code should print numbers 1,2,3 but prints nothing. What's wrong? Code: for i in [1,2,3] print(i)",
+      "expected_answer": "Missing colon after for loop",
+      "reasoning_paths": [
+        {
+          "path_id": 1,
+          "approach": "systematic",
+          "answer": "path1_answer",
+          "confidence": 0.7
+        },
+        {
+          "path_id": 2,
+          "approach": "intuitive",
+          "answer": "path1_answer",
+          "confidence": 0.6
+        },
+        {
+          "path_id": 3,
+          "approach": "analytical",
+          "answer": "path2_answer",
+          "confidence": 0.8
+        }
+      ],
+      "final_answer": "path1_answer",
+      "confidence": 0.6666666666666666,
+      "agreement": 0.6666666666666666,
+      "is_correct": false,
+      "timestamp": "2025-06-24T23:26:17.203249"
+    },
+    {
+      "task_id": 7,
+      "problem": "A rectangle has length 8cm and width 5cm. If the length is increased by 25%, what is the new area?",
+      "expected_answer": "50 cm\u00c2\u00b2",
+      "reasoning_paths": [
+        {
+          "path_id": 1,
+          "approach": "systematic",
+          "answer": "path1_answer",
+          "confidence": 0.7
+        },
+        {
+          "path_id": 2,
+          "approach": "intuitive",
+          "answer": "path1_answer",
+          "confidence": 0.6
+        },
+        {
+          "path_id": 3,
+          "approach": "analytical",
+          "answer": "path2_answer",
+          "confidence": 0.8
+        }
+      ],
+      "final_answer": "path1_answer",
+      "confidence": 0.6666666666666666,
+      "agreement": 0.6666666666666666,
+      "is_correct": true,
+      "timestamp": "2025-06-24T23:26:17.204306"
+    }
+  ],
+  "performance_metrics": {
+    "accuracy": 0.42857142857142855,
+    "avg_confidence": 0.6666666666666666,
+    "avg_agreement": 0.6666666666666666,
+    "total_tasks": 7,
+    "correct_answers": 3
+  },
+  "components_tested": {
+    "tree_of_thought": "Multiple reasoning paths generated",
+    "self_consistency": "Majority voting for final answer",
+    "automated_optimization": "Prompt improvement based on performance"
+  },
+  "optimization_log": {
+    "triggered": true,
+    "threshold": 0.6,
+    "current_accuracy": 0.42857142857142855,
+    "action_taken": "Generated improved prompt"
+  },
+  "timestamp": "2025-06-24T23:26:17.208217"
+}

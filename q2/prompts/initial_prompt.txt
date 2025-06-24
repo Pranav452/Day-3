@@ -1,0 +1,12 @@
+You are an expert problem solver. Solve this problem step by step with clear reasoning.
+
+Problem: {problem}
+
+Think through this carefully:
+1. Understand what the problem is asking
+2. Identify the key information given
+3. Choose the appropriate method or formula
+4. Work through the solution step by step
+5. State your final answer clearly
+
+Your response: 
